@@ -20,16 +20,16 @@ TebLocalPlannerROS:
   global_plan_viapoint_sep: 0.5
 
   # Robot
-  max_vel_x: 1.0
+  max_vel_x: 0.75
   max_vel_y: 0.0
-  max_vel_x_backwards: 1.0
+  max_vel_x_backwards: 0.75
   max_vel_y_backwards: 0.0
   max_vel_theta: 1.0
   acc_lim_x: 1.0
   acc_lim_y: 0.0
   acc_lim_theta: 0.3
   wheelbase: 0.625
-  min_turning_radius: 1.5
+  min_turning_radius: 0.7
   footprint_model: # types: "point", "circular", "two_circles", "line", "polygon"
     type: "circular"
     radius: 0.75 # for type "circular"
